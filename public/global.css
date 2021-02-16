@@ -1,0 +1,69 @@
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  color: azure;
+  margin: 0;
+  padding: 8px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  background-color: #222;
+}
+
+a {
+  color: azure;
+  text-decoration: none;
+  display: block;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: azure;
+}
+
+label {
+  display: block;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  -webkit-padding: 0.4rem 0;
+  padding: 0.4rem 0.8rem;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  background-color: #464649;
+  color: azure;
+  transition: 0.1s;
+}
+
+input:focus {
+  background-color: #000000;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+main {
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+}
+
+h3 {
+  margin-top: 0;
+}
